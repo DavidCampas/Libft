@@ -6,7 +6,7 @@
 /*   By: dcampas- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/19 15:26:23 by dcampas-          #+#    #+#             */
-/*   Updated: 2024/10/03 13:05:08 by dcampas-         ###   ########.fr       */
+/*   Updated: 2024/10/03 13:08:45 by dcampas-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	{
 		i++;
 	}
-	return (unsigned char)s1[i] - (unsigned char)s2[i]);
+	return (((unsigned char)s1[i]) - ((unsigned char)s2[i]));
 }
 /*
 int main()
